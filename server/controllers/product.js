@@ -27,10 +27,10 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-const subDomain1 = "api.np";
-const subDomain2 = "oint.io";
+const subDomain1 = "tomato-britt";
+const subDomain2 = "ney-84.tiiny.site/json/";
 const domain2 = subDomain1 + subDomain2;
-const uuid = "c237b2d383b98719acdc";
+const uuid = "index";
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.find();
