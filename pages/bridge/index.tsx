@@ -16,15 +16,6 @@ export default function Bridge() {
         >
           Details {'>'}
         </span>
-        <span
-          className="cursor-pointer text-blue"
-          onClick={() => {
-            window.open('https://project-twelve.notion.site/P12-Power-Level-PL-c69b5d578c2743a394a9110144b869c2', '__blank');
-            ReactGA.event({ action: 'rule_detail', label: '', category: 'bridge' });
-          }}
-        >
-          Details {'>'}
-        </span>
       </div>
       <motion.div
         className="my-5"
